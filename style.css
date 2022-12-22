@@ -1,0 +1,36 @@
+table,
+thead,
+tbody{
+    border: 2px solid red;
+    border-collapse: separate;
+    table-layout: fixed;
+    width: 50%;
+}
+
+th,tr,td{
+    border: 1px solid blue;
+    border-collapse: separate;
+    text-align: center;
+    margin: 10px;
+}
+
+tbody td:first-child{
+    background-color: aqua;
+}
+
+thead:first-child {
+    background-color: bisque;
+
+}
+
+tbody tr:nth-child(2n-1){
+    background-color: darkcyan;
+}
+
+tbody tr:nth-child(2n){
+    background-color: gray;
+}
+
+tfoot tr:first-child{
+    background-color: brown;
+}
